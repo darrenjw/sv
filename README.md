@@ -1,9 +1,8 @@
-========== README.txt ==========
 
-sv.tgz
+# sv.tgz
 
-ANSI 'C' library for stochastic volatility models
--------------------------------------------------
+## ANSI 'C' library for stochastic volatility models
+
 
 C Library for Bayesian (MCMC) analysis of Stochastic Volatility models.
 C structs "isv" (for univariate SV) and "fsv" (for multivariate factor
@@ -12,7 +11,7 @@ inadequate) test can be found in "isv\_test.c". Examples of use can be
 found in "isvprog.c" and "fsvprog.c". The theory and notation are as
 explained in:
 
-Pitt, M.K. & N. Shephard (1999), Time-varying covariances: a factor
+* Pitt, M.K. & N. Shephard (1999), Time-varying covariances: a factor
 stochastic volatility approach, Bayesian Statistics 6, OUP, 547-570.
 
 Once you've read and understood this paper, you should be able to read
@@ -44,14 +43,19 @@ so I personally wouldn't bother...
 
 The code files have the following purposes:
 
-isv.h Declaration of ISV type struct and function prototypes isv.c
-Functions and procedures making up the ISV library isvprog.c Example
-main executable program (for the ISV stuff) gendata\_isv.c Program to
-simulate some data (for the ISV stuff) test\_isv.c Some not very good
-test code... ;-) fsv.h Declaration of FSV type struct and function
-prototypes fsv.c Functions and procedures making up the FSV library
-fsvprog.c Example main executable program (for the FSV stuff)
-gendata\_fsv.c Program to simulate some data (for the FSV stuff)
+* isv.h Declaration of ISV type struct and function prototypes 
+* isv.c Functions and procedures making up the ISV library 
+* isvprog.c Example
+main executable program (for the ISV stuff) 
+* gendata\isv.c Program to
+simulate some data (for the ISV stuff) 
+* test\isv.c Some not very good
+test code... ;-) 
+* fsv.h Declaration of FSV type struct and function
+prototypes
+* fsv.c Functions and procedures making up the FSV library
+* fsvprog.c Example main executable program (for the FSV stuff)
+* gendata\fsv.c Program to simulate some data (for the FSV stuff)
 
 All code is Copyright (C) 2004 Darren Wilkinson but is free in the sense
 of the GNU General Public License.
@@ -68,5 +72,5 @@ Sather was dead and buried...
 
 Last updated: 24/6/04
 
-Darren Wilkinson d.j.wilkinson\@ncl.ac.uk
-http://www.staff.ncl.ac.uk/d.j.wilkinson/
+Darren Wilkinson
+
