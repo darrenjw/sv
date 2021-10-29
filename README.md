@@ -1,8 +1,9 @@
 
-# sv.tgz
+# sv
 
 ## ANSI 'C' library for stochastic volatility models
 
+**Please note that this is very old and unmaintained code. It is archived here mainly for historical interest.**
 
 C Library for Bayesian (MCMC) analysis of Stochastic Volatility models.
 C structs "isv" (for univariate SV) and "fsv" (for multivariate factor
