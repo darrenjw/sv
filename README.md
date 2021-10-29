@@ -8,7 +8,7 @@
 C Library for Bayesian (MCMC) analysis of Stochastic Volatility models.
 C structs "isv" (for univariate SV) and "fsv" (for multivariate factor
 SV) are declared in "isv.h" and "fsv.h" respectively. A (totally
-inadequate) test can be found in "isv\_test.c". Examples of use can be
+inadequate) test can be found in "isv_test.c". Examples of use can be
 found in "isvprog.c" and "fsvprog.c". The theory and notation are as
 explained in:
 
@@ -26,7 +26,7 @@ carefully in order to figure out what is going on, and may have to
 "tweak" it slightly to sort it out for your system.
 
 Type "make isvprog" to build the code, and "make isv.tab" to run it.
-Type "make gendata\_isv" to build the data simulation code and "make
+Type "make gendata_isv" to build the data simulation code and "make
 isvdata.dat" to simulate some data. However, because make handles all
 dependencies for you, just typing "make" will build and run everything
 in the correct order. Typing "make test" will build and run a few tests.
@@ -48,15 +48,15 @@ The code files have the following purposes:
 * isv.c Functions and procedures making up the ISV library 
 * isvprog.c Example
 main executable program (for the ISV stuff) 
-* gendata\isv.c Program to
+* gendata_isv.c Program to
 simulate some data (for the ISV stuff) 
-* test\isv.c Some not very good
+* test_isv.c Some not very good
 test code... ;-) 
 * fsv.h Declaration of FSV type struct and function
 prototypes
 * fsv.c Functions and procedures making up the FSV library
 * fsvprog.c Example main executable program (for the FSV stuff)
-* gendata\fsv.c Program to simulate some data (for the FSV stuff)
+* gendata_fsv.c Program to simulate some data (for the FSV stuff)
 
 All code is Copyright (C) 2004 Darren Wilkinson but is free in the sense
 of the GNU General Public License.
